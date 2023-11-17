@@ -1,0 +1,423 @@
+{
+	"info": {
+		"_postman_id": "6e2ad2cb-e868-4bc1-8287-05ddf3e7555f",
+		"name": "flipr1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22435211"
+	},
+	"item": [
+		{
+			"name": "127.0.0.1:3000/api/shippingDetails",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:3000/api/shippingDetails",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"shippingDetails"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "127.0.0.1:3000/api/shippingDetails",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "127.0.0.1:3000/api/shippingDetails",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"shippingDetails"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "47"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2f-QRVaXi4UzJAlY9sfR2r68+oxj3g\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 16 Nov 2023 18:50:40 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"shippingDetailId\": \"6556648047607bb2eac0d460\"\n}"
+				}
+			]
+		},
+		{
+			"name": "127.0.0.1:3000/api/customers/purchaseOrdersAndShipmentDetails",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:3000/api/purchaseOrders",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"purchaseOrders"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "127.0.0.1:3000/api/customers/purchaseOrdersAndShipmentDetails",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "127.0.0.1:3000/api/purchaseOrders",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"purchaseOrders"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "46"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2e-ISN6nFWq27hM6GsxLpUEqd+qc4I\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 16 Nov 2023 17:56:32 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"purchaseOrderId\": \"655657d047607bb2eac0d455\"\n}"
+				}
+			]
+		},
+		{
+			"name": "127.0.0.1:3000/api/customers",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:3000/api/customers",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"customers"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "127.0.0.1:3000/api/customers",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "127.0.0.1:3000/api/customers",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"customers"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "41"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"29-ngAf7gHDzGMNWG2qWYE4y5gEfOY\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 16 Nov 2023 17:53:54 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"customerId\": \"6556573247607bb2eac0d451\"\n}"
+				}
+			]
+		},
+		{
+			"name": "127.0.0.1:3000/api/purchaseOrders",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:3000/api/purchaseOrders",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"purchaseOrders"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "127.0.0.1:3000/api/purchaseOrders",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "127.0.0.1:3000/api/purchaseOrders",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"purchaseOrders"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "46"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2e-ge7sj+TUzmCXkVroAMdLMC+I2kc\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 16 Nov 2023 17:57:02 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"purchaseOrderId\": \"655657ed47607bb2eac0d457\"\n}"
+				}
+			]
+		},
+		{
+			"name": "127.0.0.1:3000/api/customers/shipment?city={city}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:3000/api/customers/shipment?city={city}",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"customers",
+						"shipment"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "{city}"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "127.0.0.1:3000/api/customers/shipment?city={city}",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "127.0.0.1:3000/api/customers/shipment?city={city}",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"customers",
+								"shipment"
+							],
+							"query": [
+								{
+									"key": "city",
+									"value": "{city}"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'none'"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "161"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 16 Nov 2023 18:01:20 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>Error</title>\n    </head>\n    <body>\n        <pre>Cannot GET /api/customers/shipment</pre>\n    </body>\n</html>"
+				}
+			]
+		}
+	]
+}
